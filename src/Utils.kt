@@ -1,15 +1,14 @@
 import java.io.File
 import java.math.BigInteger
 import java.security.MessageDigest
-import java.util.function.Predicate
 
 /**
  * Reads lines from the given input txt file.
  */
-fun readInput(name: String) = File("src", "$name.txt")
+fun readInput(name: String) = File("src/inputs", "$name.txt")
     .readLines()
 
-fun readInputAsString(name: String) = File("src", "$name.txt")
+fun readInputAsString(name: String) = File("src/inputs", "$name.txt")
     .readText()
 
 /**
