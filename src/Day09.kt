@@ -110,9 +110,4 @@ private fun Pair<Int, Int>.isTouching(other: Pair<Int, Int>): Boolean {
     return false
 }
 
-private fun Pair<Int, Int>.offsetBy(offset: Pair<Int, Int>): Pair<Int, Int> {
-    return this.copy(
-        first = this.first + offset.first,
-        second = this.second + offset.second
-    )
-}
+
